@@ -3,6 +3,8 @@ import RecipeDetails from "./components/RecipeDetails";
 import EditRecipeForm from "./components/EditRecipeForm";
 import RecipeList from "./components/RecipeList.jsx";
 import AddRecipeForm from "./components/AddRecipeForm.jsx";
+import FavoritesList from "./components/FavoritesList.jsx";
+import Recommendations from "./components/RecommendationsList.jsx";
 
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
           {
             <div>
               <RecipeList />
+              <FavoritesList />
+              <Recommendations />
               <AddRecipeForm />
             </div>
           }
