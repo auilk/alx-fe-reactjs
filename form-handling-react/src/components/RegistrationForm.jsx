@@ -11,17 +11,17 @@ function RegistrationForm()
     {
         event.preventDefault();
 
-        if (!(username))
+        if (!username)
         {
             setErrors((errors) => ({...errors, username: true}));
             return;
         }
-        if (!(email))
+        if (!email)
         {
             setErrors((errors) => ({...errors, email: true}));
             return;
         }
-        if (!(username))
+        if (!username)
         {
             setErrors((errors) => ({...errors, password: true}));
             return;
