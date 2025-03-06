@@ -21,7 +21,7 @@ function RegistrationForm()
             setErrors((errors) => ({...errors, email: true}));
             return;
         }
-        if (!username)
+        if (!password)
         {
             setErrors((errors) => ({...errors, password: true}));
             return;
